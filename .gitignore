@@ -1,0 +1,111 @@
+# ------------------------------
+# General OS junk (macOS)
+# ------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------------
+# Editors / IDEs
+# ------------------------------
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcscmblueprint
+**/*.xcuserdatad/
+DerivedData/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# ------------------------------
+# Build systems (CMake/Ninja/Make)
+# ------------------------------
+# Out-of-source build folders
+build/
+build-*/
+cmake-build-*/
+
+# Common CMake byproducts (for in-tree builds)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+_install/
+_install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+cmake_install.cmake
+*.cmake
+
+# Ninja files
+build.ninja
+.ninja_log
+.ninja_deps
+
+# pkg/build redirect helpers
+pkgRedirects/
+
+# ------------------------------
+# Compiled objects / binaries
+# ------------------------------
+# Objects
+*.o
+*.o.d
+*.obj
+*.lo
+*.d
+
+# Static/Shared libs
+*.a
+*.la
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables / bundles / debug symbols
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# ------------------------------
+# Language/tool-specific
+# ------------------------------
+# Clang/LLVM coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Metal compiled artifacts
+*.air
+*.metallib
+
+# Logs / misc
+*.log
+
+# ------------------------------
+# Cache directories
+# ------------------------------
+.cache/
+.tmp/
+**/.cache/
+**/.tmp/
+
+# ------------------------------
+# Keep source, build config, and docs
+# ------------------------------
+# Negative patterns are unnecessary since we ignore only specific byproducts.
+# CMakeLists.txt, src/, and README.md remain tracked by default.
