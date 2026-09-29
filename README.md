@@ -5,6 +5,7 @@ A collection of small GPU/graphics experiments for macOS. Most samples use Apple
 ## Demo
 
 Video: https://youtu.be/BVOkcFaubFk
+Udated maze with distortions: https://youtu.be/Qz2JMFChKq0
 
 ## Repository structure
 
