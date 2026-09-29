@@ -14,6 +14,8 @@
 # VS Code
 .vscode/
 
+.venv/
+
 # JetBrains
 .idea/
 *.iml
