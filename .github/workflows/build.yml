@@ -1,0 +1,29 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install dependencies
+      run: |
+        brew install cmake pkg-config glfw
+
+    - name: Configure CMake
+      run: cmake -S . -B build
+
+    - name: Build
+      run: cmake --build build -- -j4
+
+    - name: Verify binaries
+      run: |
+        ls -lh build/metal_* 2>/dev/null || true
+        ls -lh build/simple_glfw_* 2>/dev/null || true

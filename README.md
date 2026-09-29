@@ -4,8 +4,17 @@ A collection of small GPU/graphics experiments for macOS. Most samples use Apple
 
 ## Demo
 
-Video: https://youtu.be/BVOkcFaubFk
-Udated maze with distortions: https://youtu.be/Qz2JMFChKq0
+**Rotating sphere in a room:**
+
+<a href="https://youtu.be/BVOkcFaubFk">
+  <img alt="Rotating sphere demo" src="https://img.youtube.com/vi/BVOkcFaubFk/0.jpg" width="560">
+</a>
+
+**Infinite maze with distorted dimensional loops:**
+
+<a href="https://youtu.be/Qz2JMFChKq0">
+  <img alt="Maze with distortions" src="https://img.youtube.com/vi/Qz2JMFChKq0/0.jpg" width="560">
+</a>
 
 ## Repository structure
 
